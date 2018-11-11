@@ -5,7 +5,7 @@ public class ScbeasyPriceBean {
 	private int scId;
 	private String yeYear;
 	private String brName;
-	private int scPrice;
+	private String scPrice;
 	public int getScId() {
 		return scId;
 	}
@@ -24,10 +24,10 @@ public class ScbeasyPriceBean {
 	public void setBrName(String brName) {
 		this.brName = brName;
 	}
-	public int getScPrice() {
+	public String getScPrice() {
 		return scPrice;
 	}
-	public void setScPrice(int scPrice) {
+	public void setScPrice(String scPrice) {
 		this.scPrice = scPrice;
 	}
 	
